@@ -34,8 +34,8 @@ public class Main {
 	
 
 	  public static void main(String[] args) throws IOException {
-		  Box b1 = new Box(10,12,13);
 		  
+		  Box b1 = new Box(10,12,13);		  
 		  Box b2 = b1;
 		  
   		  
