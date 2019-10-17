@@ -34,20 +34,16 @@ public class Main {
 	
 
 	  public static void main(String[] args) throws IOException {
-		  Box b1 = new Box();
-		  b1.width = 20;
-		  Box b2 = b1;
-		  //System.out.println(b1.width+" "+b2.width);
+		  Box b1 = new Box(10,12,13);
 		  
-		  b1.width = 30;
-  		  b1.height = 10;
-  		  b1.depth = 5;
+		  Box b2 = b1;
+		  
   		  
 		  //b1.printVolume();
 		  int v = b1.getVolume();
 		  System.out.println("Volume from box is "+v);
 		  //System.out.println(b1.width+" "+b2.width);
-		  b2.width = 40;
+		  
 		  //System.out.println(b1.width+" "+b2.width);
 		
 		  /*
