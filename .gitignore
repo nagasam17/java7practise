@@ -92,3 +92,5 @@ About
 .classpath
 .project
 .settings/
+.bin/
+bin/com/nagaraj/Main.class
